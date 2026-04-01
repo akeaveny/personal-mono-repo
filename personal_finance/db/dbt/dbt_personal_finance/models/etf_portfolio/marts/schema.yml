@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: monthly_contributions
+    description: "Monthly buy totals by account, ticker, and currency"
+  - name: monthly_dividends
+    description: "Monthly dividend income by ticker and account"
+  - name: monthly_sells
+    description: "Monthly sell totals by ticker and account"
+  - name: ytd_by_account
+    description: "Year-to-date buys, sells, dividends by account"
+  - name: ytd_by_etf
+    description: "Year-to-date activity by ticker with net shares"
+  - name: allocation_drift
+    description: "Current allocation vs target, flags rebalancing needs"
+  - name: tax_summary
+    description: "Yearly tax summary per account"
+  - name: cumulative_contributions
+    description: "Running total of buy activity over time"
+  - name: fx_summary
+    description: "FX conversion summary by month"

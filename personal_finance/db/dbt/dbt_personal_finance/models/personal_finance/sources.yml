@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+
+  - name: personal_finance
+    schema: main
+    tables:
+      - name: bank_rbc_transactions
+      - name: bank_scotia_transactions
+      - name: category_patterns
+      - name: transaction_overrides

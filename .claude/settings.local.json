@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(date:*)",
+      "mcp__outlook__create-todo-task"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "google-calendar",
+    "gmail",
+    "google-tasks"
+  ],
+  "remote": {
+    "defaultEnvironmentId": "env_01PANnFheEyyNgnzu58JCWq9"
+  }
+}

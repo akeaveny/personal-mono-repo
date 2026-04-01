@@ -1,0 +1,28 @@
+name: 'dbt_personal_finance'
+version: '1.0.0'
+profile: 'dbt_personal_finance'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_personal_finance:
+    personal_finance:
+      +enabled: false
+      +materialized: view
+    etf_portfolio:
+      +materialized: view
+      marts:
+        +materialized: table
+
+seeds:
+  dbt_personal_finance:
+    +schema: main
