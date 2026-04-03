@@ -35,6 +35,10 @@ personal_investing/
   references/
     TODO/                # Research items queued to consume
     LOGGED/              # Consumed research with thesis impact notes
+gym/
+  Training_Plan.md       # 4-day hypertrophy split + cycling schedule
+  Meal_Prep.md           # Meal prep notes
+  Logging_Meals.md       # Rolling meal log (newest week first)
 CLAUDE.md                # This file
 .claude/standards/
   Reading.md             # Reading module standards (schema, templates, rules)
@@ -42,6 +46,7 @@ CLAUDE.md                # This file
   Documents.md           # Documents module standards (schema, naming, rules)
   Investing.md           # Investing module standards (schema, templates, rules)
   DailyStockTalk.md      # Stock talk log standards (schema, format, rules)
+  MealLogging.md         # Meal logging standards (schema, estimation, patterns)
 .claude/commands/        # Slash command definitions
   sync-todos.md          # /sync-todos command
   refresh-board.md       # /refresh-board command
@@ -54,6 +59,7 @@ CLAUDE.md                # This file
   queue-investing.md     # /queue-investing command
   log-stock-talk.md      # /log-stock-talk command
   review-stock-talk.md   # /review-stock-talk command
+  log-meal.md            # /log-meal command
 ```
 
 ## How `/sync-todos` Works
@@ -155,6 +161,14 @@ The `personal_investing/` directory is a self-contained investing research track
 - **`/review-stock-talk`** — Cross-reference recent stock talk against THESIS.md to surface actionable insights
 
 Each logged entry ties its claims back to `THESIS.md`, so research accumulates over time and continually builds the thesis. `RESEARCH.md` is the rolling log (mirrors `reading/READING.md`). `DAILY_LOGS.md` captures raw conversational signal — `/review-stock-talk` bridges it to the thesis. `references/TODO/` and `references/LOGGED/` mirror `reading/TODO/` and `reading/LOGGED/`.
+
+## Meal Logging Module
+
+The `gym/` directory includes a meal tracker focused on building awareness of eating habits — not strict calorie goals. Standards (schema, estimation rules, weekly patterns) are in `.claude/standards/MealLogging.md`.
+
+- **`/log-meal`** — Log what you ate conversationally (designed for quick phone sessions)
+
+Everything lives in a single `Logging_Meals.md` file — entries are grouped by week, newest first. Multiple logs in one day append to the same day's meal table. Weekly pattern summaries auto-generate when a new week starts (if 3+ days were logged). Calorie and protein estimates are approximate — the goal is spotting patterns over time, not precision tracking.
 
 ## MCP Integrations
 

@@ -86,6 +86,8 @@
 - [ ] Cone and Jenna
 - [ ] Book RBC scramble open with Cone & Garrett (due: 2026-03-28)
 - [ ] Change Apple password
+- [ ] Transfer car registry from Dad to my name
+- [ ] Change to summer tires (due: 2026-04-16)
 
 ## Backlog
 
