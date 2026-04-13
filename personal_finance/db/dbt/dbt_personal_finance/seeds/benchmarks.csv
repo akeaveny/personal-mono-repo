@@ -1,0 +1,3 @@
+benchmark_key,ticker,name,description
+sp500,^GSPC,S&P 500,Primary US benchmark
+tsx,^GSPTSE,S&P/TSX Composite,Canadian market benchmark

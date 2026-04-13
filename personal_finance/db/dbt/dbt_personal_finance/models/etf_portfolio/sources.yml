@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+
+  - name: etf_portfolio
+    schema: main
+    tables:
+      - name: etf_transactions
+      - name: etf_holdings
+      - name: etf_prices

@@ -1,0 +1,19 @@
+gcp-oauth.keys.json
+client_secret_*.json
+tokens.json
+.mcp.json
+.env
+
+
+# .TODO/
+.TODO/
+
+# Personal finance
+personal_finance/csv_files/
+personal_finance/*.db
+
+# Taxes — sensitive documents
+taxes/**/*.pdf
+taxes/**/*.csv
+taxes/**/*.xlsx
+taxes/**/*.xlsm

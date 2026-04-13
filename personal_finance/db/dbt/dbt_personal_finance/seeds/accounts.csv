@@ -1,0 +1,4 @@
+account,account_type,annual_limit,lifetime_limit,tax_deductible,tax_free_growth,tax_free_withdrawal,notes
+TFSA,Tax-Free Savings Account,7000,,no,yes,yes,Check CRA for cumulative room
+RRSP,Registered Retirement Savings Plan,,,"yes",yes,no,18% of earned income; US withholding tax exempt
+FHSA,First Home Savings Account,8000,40000,yes,yes,yes,First home purchase only; unused room carries forward

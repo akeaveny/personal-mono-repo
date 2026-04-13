@@ -1,0 +1,7 @@
+ticker,name,asset_class,mer,target_allocation,benchmark_ticker
+XDIV,iShares Core MSCI Canadian Quality Dividend Index ETF,Canadian Dividends,0.11,,^GSPTSE
+XQQ,iShares NASDAQ 100 Index ETF CAD-Hedged,US Tech (Hedged),0.39,,^NDX
+XGD,iShares S&P/TSX Global Gold Index ETF,Gold Miners,0.61,,
+FCIV,Fidelity International Value Index ETF,International Value,0.35,,
+BYN,Banyan Gold Corp,Gold (Individual Stock),,,
+FCX,Freeport-McMoRan Inc,Copper/Mining (Individual Stock),,,

@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    description: "All raw transactions from Wealthsimple with parsed date components"
+    columns:
+      - name: id
+        tests: [unique, not_null]
+      - name: transaction_date
+        tests: [not_null]
+      - name: transaction_type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['BUY', 'SELL', 'DIV', 'FXCONVERSION']
+
+  - name: stg_buys
+    description: "All BUY transactions with positive cost"
+  - name: stg_sells
+    description: "All SELL transactions with proceeds"
+  - name: stg_dividends
+    description: "All dividend distributions"
+  - name: stg_fx
+    description: "All FX conversion transactions"
+  - name: stg_holdings
+    description: "Holdings snapshots"
+    columns:
+      - name: id
+        tests: [unique, not_null]

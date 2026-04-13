@@ -1,0 +1,38 @@
+{
+    "todo-tree.general.tags": [
+        "[ ]",
+        "#trip",
+        "#personal-finance",
+        "#weekly"
+    ],
+    "todo-tree.regex.regex": "(\\[ \\]|#trip|#personal-finance|#weekly)",
+    "todo-tree.tree.groupedByTag": true,
+    "todo-tree.tree.sortTagsOnlyViewAlphabetically": true,
+    "todo-tree.filtering.includeGlobs": [
+        "**/BOARD.md"
+    ],
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "tag"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "[ ]": {
+            "icon": "tasklist",
+            "iconColour": "#9E9E9E"
+        },
+        "#trip": {
+            "icon": "globe",
+            "iconColour": "#4FC3F7",
+            "foreground": "#4FC3F7"
+        },
+        "#personal-finance": {
+            "icon": "credit-card",
+            "iconColour": "#81C784",
+            "foreground": "#81C784"
+        },
+        "#weekly": {
+            "icon": "clock",
+            "iconColour": "#FFB74D",
+            "foreground": "#FFB74D"
+        }
+    }
+}
