@@ -11,14 +11,14 @@
             "id": "bef7bc296cbd606b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "daily_journal/JOURNAL.md",
-                "bFile": "daily_journal/JOURNAL.md",
-                "aRef": ""
+                "file": "iPhone Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: JOURNAL"
+              "icon": "lucide-file",
+              "title": "iPhone Notes"
             }
           }
         ]
@@ -112,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "iPhone Notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,6 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "iPhone Notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -143,6 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "iPhone Notes.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -178,18 +181,27 @@
   },
   "active": "bef7bc296cbd606b",
   "lastOpenFiles": [
-    "daily_journal/JOURNAL.md",
     "CLAUDE.md",
-    "documents/bills/2026/2026-02-28_telus_mobility-bill.pdf",
-    "documents/bills/2026/2026-01-31_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-07-31_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-04-30_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-01-31_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-10-31_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-02-28_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-09-30_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-03-31_telus_mobility-bill.pdf",
-    "documents/bills/2025/2025-08-31_telus_mobility-bill.pdf",
+    "iPhone Notes.md",
+    "Untitled",
+    "taxes/2024/moving_expenses_dispute/Toronto Lease",
+    "taxes/2024/moving_expenses_dispute/README.md",
+    "taxes/2024/moving_expenses_dispute/Helios/Helios Employment Agreement - Aidan.docx",
+    "taxes/2024/moving_expenses_dispute/Helios",
+    "reading/TODO/2026-03-20-art-iranian-war.md",
+    "reading/TODO/2026-03-20-art-private-credit.md",
+    "reading/LOGGED",
+    "reading/READING.md",
+    "reading/TODO",
+    "reading",
+    "/taxes/2024/moving_expenses_dispute/README.md",
+    "/taxes/2024/moving_expenses_dispute/Helios/Helios Employment Agreement - Aidan.docx",
+    "/reading/TODO/2026-03-20-art-private-credit.md",
+    "/reading/TODO/2026-03-20-art-iranian-war.md",
+    "/reading/READING.md",
+    "/taxes/2024/moving_expenses_dispute/Toronto Lease",
+    "/taxes/2024/moving_expenses_dispute/Helios",
+    "daily_journal/JOURNAL.md",
     "gym/Meal_Prep.md",
     "gym/Training_Plan.md",
     "gym/Logging_Meals.md",
@@ -204,15 +216,6 @@
     "personal_investing/references/LOGGED/2025-10-14-pdf-bmo-perpetua-resources-stibnite-initiation.md",
     "personal_investing/references/LOGGED/2026-03-30-13f-fcx-copper-peer-analysis.md",
     "personal_investing/references/LOGGED/2026-01-13-pdf-cormark-banyan-gold-aurmac-pea.md",
-    "personal_investing/references/LOGGED/2026-01-01-pdf-jpm-guide-to-markets-q1-2026.md",
-    "personal_investing/references/LOGGED/2026-03-21-pdf-jpm-cembalest-pandoras-bog-energy-shock.md",
-    "personal_investing/references/LOGGED/2025-12-22-pdf-piper-sandler-spectrum-of-energy.md",
-    "personal_investing/references/LOGGED/2026-03-30-pdf-redpoint-2026-market-update.md",
-    "personal_investing/references/LOGGED/2026-03-30-13f-top10-conviction-cross-reference.md",
-    "personal_investing/references/LOGGED/2026-03-30-13f-berkshire-q4-2025-holdings.md",
-    "personal_investing/references/LOGGED/2025-11-03-13f-scion-burry-q3-2025-holdings.md",
-    "personal_investing/references/LOGGED/2026-01-06-pdf-peters-canadian-infrastructure-overview.md",
-    "personal_investing/references/LOGGED/2026-03-30-13f-cde-silver-miner-analysis.md",
-    "personal_investing/references/LOGGED/2026-01-05-pdf-barclays-european-credit-overview.md"
+    "personal_investing/references/LOGGED/2026-01-01-pdf-jpm-guide-to-markets-q1-2026.md"
   ]
 }
