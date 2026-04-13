@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "3eb67d17baaedcd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf84f515f53d7e88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bef7bc296cbd606b",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "aFile": "daily_journal/JOURNAL.md",
+                "bFile": "daily_journal/JOURNAL.md",
+                "aRef": ""
+              },
+              "icon": "git-pull-request",
+              "title": "Diff: JOURNAL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d91dc34e56b3e68",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "938f5475f0c2b044",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "8c63e4011d1b283b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "2c118e5174dd1c33",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "0af3412e1bd5e23f",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "0cc5194b0f621f38",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e69581e08f314866",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0aba726e7921fa81",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "8cce6a2b263ac363",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "9bc826171895492d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "231ee5427ea1aa33",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "bef7bc296cbd606b",
+  "lastOpenFiles": [
+    "daily_journal/JOURNAL.md",
+    "CLAUDE.md",
+    "documents/bills/2026/2026-02-28_telus_mobility-bill.pdf",
+    "documents/bills/2026/2026-01-31_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-07-31_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-04-30_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-01-31_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-10-31_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-02-28_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-09-30_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-03-31_telus_mobility-bill.pdf",
+    "documents/bills/2025/2025-08-31_telus_mobility-bill.pdf",
+    "gym/Meal_Prep.md",
+    "gym/Training_Plan.md",
+    "gym/Logging_Meals.md",
+    "taxes/2024/cra_dispute/00_Cover_Letter.md",
+    "taxes/2024/SUMMARY.md",
+    "taxes/2025/CHECKLIST.md",
+    "personal_investing/references/LOGGED/2026-03-30-yt-meldrum-2026-investment-themes.md",
+    "personal_investing/references/LOGGED/2026-03-30-pdf-xdiv-ishares-canadian-quality-dividend.md",
+    "personal_investing/references/LOGGED/2026-01-01-pdf-jpm-cembalest-smothering-heights-outlook.md",
+    "personal_investing/references/LOGGED/2026-03-30-pdf-jpm-fighting-words-energy-2026.md",
+    "personal_investing/references/LOGGED/2026-03-30-pdf-morningstar-canadian-equity-highlights.md",
+    "personal_investing/references/LOGGED/2025-10-14-pdf-bmo-perpetua-resources-stibnite-initiation.md",
+    "personal_investing/references/LOGGED/2026-03-30-13f-fcx-copper-peer-analysis.md",
+    "personal_investing/references/LOGGED/2026-01-13-pdf-cormark-banyan-gold-aurmac-pea.md",
+    "personal_investing/references/LOGGED/2026-01-01-pdf-jpm-guide-to-markets-q1-2026.md",
+    "personal_investing/references/LOGGED/2026-03-21-pdf-jpm-cembalest-pandoras-bog-energy-shock.md",
+    "personal_investing/references/LOGGED/2025-12-22-pdf-piper-sandler-spectrum-of-energy.md",
+    "personal_investing/references/LOGGED/2026-03-30-pdf-redpoint-2026-market-update.md",
+    "personal_investing/references/LOGGED/2026-03-30-13f-top10-conviction-cross-reference.md",
+    "personal_investing/references/LOGGED/2026-03-30-13f-berkshire-q4-2025-holdings.md",
+    "personal_investing/references/LOGGED/2025-11-03-13f-scion-burry-q3-2025-holdings.md",
+    "personal_investing/references/LOGGED/2026-01-06-pdf-peters-canadian-infrastructure-overview.md",
+    "personal_investing/references/LOGGED/2026-03-30-13f-cde-silver-miner-analysis.md",
+    "personal_investing/references/LOGGED/2026-01-05-pdf-barclays-european-credit-overview.md"
+  ]
+}
