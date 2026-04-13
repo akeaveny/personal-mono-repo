@@ -17,3 +17,5 @@ taxes/**/*.pdf
 taxes/**/*.csv
 taxes/**/*.xlsx
 taxes/**/*.xlsm
+
+*.zip

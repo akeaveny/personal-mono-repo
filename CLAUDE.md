@@ -27,11 +27,26 @@ documents/
   employment/            # Employment agreements, offer letters, by year
 personal_finance/        # Financial data pipeline (CSVs, DB, dbt, scripts)
 taxes/                   # Tax filing by year (slips, returns, disputes)
+personal_investing/
+  THESIS.md              # Master investing thesis
+  RESEARCH.md            # Rolling log of consumed research (newest first)
+  DAILY_LOGS.md          # Rolling stock talk log (newest first)
+  TODO.md                # Investing action items and TODOs
+  references/
+    TODO/                # Research items queued to consume
+    LOGGED/              # Consumed research with thesis impact notes
+gym/
+  Training_Plan.md       # 4-day hypertrophy split + cycling schedule
+  Meal_Prep.md           # Meal prep notes
+  Logging_Meals.md       # Rolling meal log (newest week first)
 CLAUDE.md                # This file
 .claude/standards/
   Reading.md             # Reading module standards (schema, templates, rules)
   DailyJournal.md        # Daily journal standards (schema, templates, rules)
   Documents.md           # Documents module standards (schema, naming, rules)
+  Investing.md           # Investing module standards (schema, templates, rules)
+  DailyStockTalk.md      # Stock talk log standards (schema, format, rules)
+  MealLogging.md         # Meal logging standards (schema, estimation, patterns)
 .claude/commands/        # Slash command definitions
   sync-todos.md          # /sync-todos command
   refresh-board.md       # /refresh-board command
@@ -40,6 +55,11 @@ CLAUDE.md                # This file
   weekly-digest.md       # /weekly-digest command
   journal.md             # /journal command
   journal-review.md      # /journal-review command
+  log-investing.md       # /log-investing command
+  queue-investing.md     # /queue-investing command
+  log-stock-talk.md      # /log-stock-talk command
+  review-stock-talk.md   # /review-stock-talk command
+  log-meal.md            # /log-meal command
 ```
 
 ## How `/sync-todos` Works
@@ -130,6 +150,25 @@ The `documents/` directory stores personal reference documents — bills, leases
 This is separate from `personal_finance/` (data pipeline for transaction analytics) and `taxes/` (tax filing and compliance). The boundary: if it's a **reference record** you might look up later, it goes in `documents/`. If it's analytical source data, it stays in `personal_finance/`. If it's tax-related, it stays in `taxes/`.
 
 Files follow the naming convention: `YYYY-MM-DD_vendor_description.ext` (day optional). Subdirectories are organized by year (except `identity/`, which is flat).
+
+## Investing Module
+
+The `personal_investing/` directory is a self-contained investing research tracker. Standards (schema, templates, naming, auto-tag rules) are in `.claude/standards/Investing.md`.
+
+- **`/queue-investing`** — Queue a YouTube video, PDF, article, or earnings report to review later
+- **`/log-investing`** — Log something you just consumed, with explicit thesis impact
+- **`/log-stock-talk`** — Log informal stock discussions conversationally (tips, questions, ideas)
+- **`/review-stock-talk`** — Cross-reference recent stock talk against THESIS.md to surface actionable insights
+
+Each logged entry ties its claims back to `THESIS.md`, so research accumulates over time and continually builds the thesis. `RESEARCH.md` is the rolling log (mirrors `reading/READING.md`). `DAILY_LOGS.md` captures raw conversational signal — `/review-stock-talk` bridges it to the thesis. `references/TODO/` and `references/LOGGED/` mirror `reading/TODO/` and `reading/LOGGED/`.
+
+## Meal Logging Module
+
+The `gym/` directory includes a meal tracker focused on building awareness of eating habits — not strict calorie goals. Standards (schema, estimation rules, weekly patterns) are in `.claude/standards/MealLogging.md`.
+
+- **`/log-meal`** — Log what you ate conversationally (designed for quick phone sessions)
+
+Everything lives in a single `Logging_Meals.md` file — entries are grouped by week, newest first. Multiple logs in one day append to the same day's meal table. Weekly pattern summaries auto-generate when a new week starts (if 3+ days were logged). Calorie and protein estimates are approximate — the goal is spotting patterns over time, not precision tracking.
 
 ## MCP Integrations
 
