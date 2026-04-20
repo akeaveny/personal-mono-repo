@@ -4,20 +4,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-An Obsidian vault that serves as a lightweight TODO tracker. Tasks are pulled on-demand from Google Tasks and Google Calendar via the `/sync-todos` slash command.
+An Obsidian vault that serves as a personal productivity system — task tracking, weekly planning, daily journaling, reading logs, investing research, and meal logging. All manually maintained.
 
 ## Vault Structure
 
 ```
-TODO/
-  TODO.md                # Auto-generated task list (do not edit manually)
-  BOARD.md               # Curated task board (manually organized, merge-updated)
+daily_journal/
+  JOURNAL.md             # Single rolling file — all entries, newest first
+  GOALS.md               # Personal operating doc — health, structure, habits
+  PLANNING.md            # Rolling weekly plan (overwritten each week)
+  BOARD.md               # Backlog and longer-term tasks (manually maintained)
 reading/
   READING.md             # Rolling weekly reading log (newest first)
   TODO/                  # Items queued to read/watch (status: "todo")
   LOGGED/                # Consumed items with notes (status: "logged")
-daily_journal/
-  JOURNAL.md             # Single rolling file — all entries, newest first
 documents/
   lease/                 # Lease agreements, by year
   bills/                 # Utility bills, subscriptions, by year
@@ -48,8 +48,6 @@ CLAUDE.md                # This file
   DailyStockTalk.md      # Stock talk log standards (schema, format, rules)
   MealLogging.md         # Meal logging standards (schema, estimation, patterns)
 .claude/commands/        # Slash command definitions
-  sync-todos.md          # /sync-todos command
-  refresh-board.md       # /refresh-board command
   log-reading.md         # /log-reading command
   add-to-reading-list.md # /add-to-reading-list command
   weekly-digest.md       # /weekly-digest command
@@ -62,69 +60,13 @@ CLAUDE.md                # This file
   log-meal.md            # /log-meal command
 ```
 
-## How `/sync-todos` Works
+## Task & Planning System
 
-Run `/sync-todos` to regenerate `TODO/TODO.md` with current tasks from:
+`TODO/BOARD.md` is a manually maintained backlog for longer-term tasks, organized by category sections (Trips, Personal Finance, etc.) with inline `#hashtags`. Edit it directly — there is no automated sync.
 
-1. **Google Tasks** — All incomplete tasks
-2. **Google Calendar** — Upcoming events for the next 7 days
+`daily_journal/PLANNING.md` is a rolling weekly plan — overwritten each week with the upcoming schedule, tasks for the week, and any random items. Kept separate from the backlog.
 
-The command fully replaces `TODO/TODO.md` on each run. Partial failures (e.g., Google Tasks unavailable) produce inline HTML comments but don't block the sync.
-
-`TODO/TODO.md` is auto-generated. Do not edit it manually — changes will be overwritten on the next sync.
-
-## How `/refresh-board` Works
-
-Run `/refresh-board` to merge the latest tasks from `TODO/TODO.md` into `TODO/BOARD.md`:
-
-1. **New tasks** from TODO.md are added to the `## Inbox` section of BOARD.md
-2. **Removed tasks** (in BOARD.md but no longer in TODO.md) are flagged with ` ⚠️ gone from TODO`
-3. **Existing tasks** and all user annotations, groupings, tags, and notes are preserved exactly as-is
-
-The merge matches tasks by Google Task title. Preserve task titles on lines to keep sync working. Calendar events are transient and never flagged as removed.
-
-`TODO/BOARD.md` is user-curated. Edit it freely — `/refresh-board` only adds new tasks to Inbox and flags removed ones. It never deletes, moves, or reformats your content.
-
-Typical workflow:
-1. Run `/sync-todos` to pull latest from Google Tasks and Google Calendar
-2. Run `/refresh-board` to merge new tasks into your board
-3. Manually organize: move items from Inbox to Daily Focus, In Progress, etc.
-
-## Tagging System
-
-BOARD.md uses a combination of **section-based grouping** and **inline hashtags** for task categorization.
-
-### Category sections
-
-The board includes dedicated sections between "Up Next" and "Inbox" for primary categories:
-
-- **Trips** — Travel-related tasks (flights, hotels, trip planning)
-- **Personal Finance** — Banking, taxes, insurance claims, cards
-- **Weekly Reminders** — Recurring weekly items
-
-Move tasks from Inbox into these sections during triage. New sections can be added freely.
-
-### Inline hashtags
-
-Tasks can carry inline hashtags for cross-cutting concerns: `#trip`, `#personal-finance`, `#weekly`. Tags go at the end of the task title, before the `—` source attribution:
-
-```
-- [ ] Book flights for Ireland #trip — *via Google Tasks*
-```
-
-Users can add any custom hashtag — the system is open-ended.
-
-### Auto-tagging rules
-
-`/refresh-board` automatically tags **new** tasks added to Inbox using keyword matching (case-insensitive):
-
-| Keywords | Tag |
-|---|---|
-| flight, flights, hotel, airbnb, trip, travel, ireland, vacation, passport | `#trip` |
-| tax, taxes, RBC, CRA, bank, card, claim, finance, penalty, scotia | `#personal-finance` |
-| weekly, reminder, recurring, every week | `#weekly` |
-
-Auto-tagging only applies to newly added tasks. Existing tasks are never re-tagged — manual tag edits are always preserved.
+`daily_journal/GOALS.md` is a personal operating document covering health goals, habit patterns, and structure rules. Reviewed monthly, referenced by `/journal-review`.
 
 ## Reading Module
 
@@ -170,7 +112,3 @@ The `gym/` directory includes a meal tracker focused on building awareness of ea
 
 Everything lives in a single `Logging_Meals.md` file — entries are grouped by week, newest first. Multiple logs in one day append to the same day's meal table. Weekly pattern summaries auto-generate when a new week starts (if 3+ days were logged). Calorie and protein estimates are approximate — the goal is spotting patterns over time, not precision tracking.
 
-## MCP Integrations
-
-- **Google Tasks**: Configured in `.mcp.json`. Provides `list`, `search`, `create`, `update`, `delete`, and `clear` operations.
-- **Google Calendar**: Configured in `.mcp.json`. Provides `list-events`, `search-events`, `create-event`, `update-event`, `delete-event`, and more.
