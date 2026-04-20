@@ -31,7 +31,7 @@
 - WMT `#consumer`
 - CVX `#energy` `#candidate`
 - XOM `#energy`
-- FCX `#materials` `#candidate` — Meldrum top pick; USD weakness → copper/metals; 20%+ expected 2026
+- FCX `#materials` — SOLD April 2026. Copper thesis intact but institutional flow mixed
 - IWM `#etf` `#candidate` — small cap ETF; biggest beneficiary of Fed rate cuts
 - V `#financials`
 - BRK.B `#financials`
@@ -66,7 +66,13 @@
 - PPL.TO `#energy` `#ca` — Pembina Pipeline; 5.4% yield, 12.1% total return; Outperform, target $58 *(Peters & Co.)*
 - KEY.TO `#energy` `#ca` — Keyera Corp; 4.9% yield, 10.2% total return; Outperform, target $52 *(Peters & Co.)*
 - ARX.TO `#energy` `#ca`
-- BYN.TO `#materials` `#ca` `#watch` — Banyan Gold; 0.20x NAV at $4,000/oz gold; pre-PEA explorer, very speculative *(Cormark)*
+- BTE.TO `#energy` `#ca` `#candidate` — Baytex Energy; **strongest insider cluster buy on TSX** — CEO Greager, President Lundberg, COO + 2 others all buying Mar-Apr 2026 (~C$550K+ combined, 5+ insiders). Pure-play Canadian oil, entered 2026 as pure-play Canadian operator *(Insider Signal: STRONG CLUSTER)*
+- CVE.TO `#energy` `#ca` `#candidate` — Cenovus Energy; **CEO Jon McKenzie 4 repeat purchases totaling 300K shares over 18 months** (C$924K+ most recent). Integrated oil sands, lowest breakeven ~US$40 WTI. Record upstream production 840-870K bbl/d *(Insider Signal: STRONG REPEAT)*
+- BIR.TO `#energy` `#ca` `#watch` — Birchcliff Energy; **full C-suite cluster buy** — CEO Carlsen, COO Van Der Werken, CFO Geremia + 3 others (6 insiders, C$257K combined, Dec 2025-Jan 2026). Pure nat gas, Montney. Benefits from LNG demand + data center power *(Insider Signal: STRONG CLUSTER)*
+- AAV.TO `#energy` `#ca` `#watch` — Advantage Energy; **C$3.71M cumulative insider buying** by Director David Smith (repeat buyer). Montney nat gas producer *(Insider Signal: STRONG REPEAT)*
+- GEI.TO `#energy` `#ca` `#candidate` — Gibson Energy; **CEO Philippon (25K shares) + CFO Hicks (8.9K shares) cluster buy** (~C$717K combined, Feb 2026). Midstream infrastructure, 5.4% yield, Outperform target $52 *(Peters & Co., Insider Signal: MODERATE CLUSTER)*
+- K.TO `#materials` `#ca` `#watch` — Kinross Gold; management buying back $200M+ in Q2 2026. Moody's upgrade to Baa2. Only gold miner with management expressing conviction through buybacks *(Insider Signal: MODERATE — buyback, not open market)*
+- BYN.TO `#materials` `#ca` `#own` — Banyan Gold; **29,800 shares @ C$1.14, current C$1.38 (+21%)**. TSX Venture 50. Analyst target C$1.93. Pre-PEA explorer *(Cormark)*
 - SSE.L `#utilities` `#uk` — UK electric networks; Bernstein #1 pick; 9% defensive EPS growth, 19% upside to target *(Bernstein)*
 - NG.L `#utilities` `#uk` — National Grid; Bernstein #2 pick; constructive RIIO-T3 price control; underappreciated US business *(Bernstein)*
 - RWE.DE `#utilities` `#eu` — German renewables + flex-gen; improved capital discipline; 25% capex cut + buybacks *(Bernstein)*
