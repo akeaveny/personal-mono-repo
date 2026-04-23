@@ -12,10 +12,4 @@ tokens.json
 personal_finance/csv_files/
 personal_finance/*.db
 
-# Taxes — sensitive documents
-taxes/**/*.pdf
-taxes/**/*.csv
-taxes/**/*.xlsx
-taxes/**/*.xlsm
-
 *.zip
