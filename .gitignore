@@ -19,3 +19,6 @@ taxes/**/*.xlsx
 taxes/**/*.xlsm
 
 *.zip
+
+# PDFs — stay local only
+*.pdf

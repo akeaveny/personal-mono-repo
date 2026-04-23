@@ -12,12 +12,18 @@
 - Pull Day
 - National Oil game @ 8
 ## Tuesday
-## Wednesday
 - Dinner with Justin
+## Wednesday
 ## Thursday
+- Smaller run
+- Personal Finances
 ## Friday
 - Golf Sim league
+- Chest Workout / Bike
+- Oil game @ Local
 ## Saturday
+- Taxes
+- Smaller Run / Bike
 - Mo night out (Engagement)
 ## Sunday
 
@@ -32,4 +38,4 @@
 - 3x Workouts
 - Long Run/Bike
 
-- Personal Finance Logging
+- Personal Finance Logging (Thursday)

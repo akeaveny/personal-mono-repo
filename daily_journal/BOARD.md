@@ -4,23 +4,26 @@
 
 ## Inbox
 
-- 40 from Gus
+- Booking for Lynx Ridge
+- Post clubs on Market Place / Bag on Marketplace
+- Buy Mountain collective pass
+
+- Log from Jay
+- Jason Aldean Stamp 
 
 - [ ] Contacts from Canada Life
-- Heart Rate Monitor for biking and running
+- Heart Rate Monitor for biking and running (Watch)
 
 - [ ] Prints from Geo for condo
 - [ ] Book dentist appointment (Fix teeth)
-- [ ] Glasses
-- [ ] Book RBC scramble open with Cone & Garrett
 - [ ] Change Apple password
 
 - Book lesson @ LYNX
-- Sell golf stuff on Marketplace
 - New meal plan for biking and running
 - Take a pause from instagram (75 day Challenge)
 
-- Buy Mountain collective pass
+#### Planning
+- [ ] Book RBC scramble open with Cone & Garrett
 
 ## On-Going
 

@@ -1,8 +1,21 @@
 # Investing Research Log
 
-> Last updated: 2026-03-30 ET (22 entries)
+> Last updated: 2026-04-20 ET (26 entries)
 
 <!-- Newest entries first. Updated automatically by /log-investing. Do not edit manually. -->
+
+## Week of 2026-04-14
+
+### 2026-04-20 (Sunday)
+
+- **pdf** | [Anatomy of a Ghostly ATH — SPY/QQQ Breadth Analysis](personal_investing/references/LOGGED/2026-04-17-pdf-anatomy-of-a-ghostly-ath.md) | *Independent Research* | #macro #ai-semis #energy | Impact: SUPPORTS | Delta: +1
+  - SPY ATH is a mirage: only 1.75% of names by weight at 52w highs; Mag-7 = 50% of rally; energy ONLY net detractor (-0.34pp); private credit defaults at 5.8% (record) with 26% software exposure — hidden fragility beneath calm public spreads
+- **pdf** | [PLTR — Equity Research Memo](personal_investing/references/LOGGED/2026-04-16-pdf-pltr-equity-research-memo.md) | *AI Research Pipeline* | #ai-semis #macro | Impact: NEUTRAL | Delta: 0
+  - Quality 96/100 but HOLD at 47.2x EV/Revenue — skew gate fails; Ontology moat real but 35% probability of "Agentic Bypass" by late 2027 from Anthropic/OpenAI; insider selling $580M; private credit stress at record 5.8% default rate
+- **pdf** | [Strait of Hormuz: A Citrini Field Trip](personal_investing/references/LOGGED/2026-04-02-pdf-citrini-strait-of-hormuz-field-trip.md) | *Citrini Research* | #energy #macro | Impact: MIXED | Delta: 0
+  - Ground-truth from Musandam: Strait is NOT closed — operating as "Iranian toll road" with IRGC approval process; AIS data misses 50%+ of traffic; 15 ships counted crossing April 2nd; ceasefire fragile, local sources expect re-escalation
+- **pdf** | [TD Cowen — US Autos & Mobility Initiation](personal_investing/references/LOGGED/2025-03-06-pdf-td-cowen-us-autos-mobility-initiation.md) | *TD Cowen* | #industrials #macro | Impact: NEUTRAL | Delta: 0
+  - GM top pick ($105 PT, 133% upside); AV/AI could ~3x automaker profit pool; US auto demand more resilient than consensus; supplier stocks near bottom; pre-Gulf War III report (March 2025) — tariff assumptions overtaken by events
 
 ## Week of 2026-03-30
 
