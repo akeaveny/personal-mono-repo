@@ -13,3 +13,4 @@ personal_finance/csv_files/
 personal_finance/*.db
 
 *.zip
+.DS_Store
