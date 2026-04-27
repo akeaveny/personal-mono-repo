@@ -9,22 +9,19 @@
 - [ ] Book winter tires swap
 
 ## Monday
-- Pull Day
-- National Oil game @ 8
+- Golf/Pull Day
+- Personal Finances
 ## Tuesday
-- Dinner with Justin
+- Push Day
+- National Oil game @ 8
 ## Wednesday
 ## Thursday
-- Smaller run
-- Personal Finances
+- Golf
 ## Friday
 - Golf Sim league
 - Chest Workout / Bike
 - Oil game @ Local
 ## Saturday
-- Taxes
-- Smaller Run / Bike
-- Mo night out (Engagement)
 ## Sunday
 
 ## Need to commit
