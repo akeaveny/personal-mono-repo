@@ -33,6 +33,8 @@
 
 - Close RBC direct investing (tax documents)
 - Change CRA Address
+- Home Buyers Plan
+- RRSP and TFSA contribution room
 
 ## Trips
 
