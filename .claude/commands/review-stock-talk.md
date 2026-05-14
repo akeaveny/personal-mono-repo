@@ -1,6 +1,6 @@
 Review recent stock talk entries against the investing thesis.
 
-First, read `.claude/standards/DailyStockTalk.md` for the DAILY_LOGS.md format.
+First, read `.claude/skills/DailyStockTalk.md` for the DAILY_LOGS.md format.
 
 ## Steps
 

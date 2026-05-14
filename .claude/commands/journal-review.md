@@ -1,6 +1,6 @@
 Generate a weekly journal review with patterns, spending breakdown, and goals.
 
-First, read `.claude/standards/DailyJournal.md` for the schema, JOURNAL.md format, and weekly review format.
+First, read `.claude/skills/DailyJournal.md` for the schema, JOURNAL.md format, and weekly review format.
 
 ## Steps
 

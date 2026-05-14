@@ -1,6 +1,6 @@
 Log a daily stock talk entry from conversational input.
 
-First, read `.claude/standards/DailyStockTalk.md` for the full schema, format, and append behavior.
+First, read `.claude/skills/DailyStockTalk.md` for the full schema, format, and append behavior.
 
 The user's input: $ARGUMENTS
 

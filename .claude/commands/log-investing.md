@@ -1,6 +1,6 @@
 Log an investing research entry for something just consumed.
 
-First, read `.claude/standards/Investing.md` for the full schema, templates, naming conventions, and auto-tagging rules.
+First, read `.claude/skills/Investing.md` for the full schema, templates, naming conventions, and auto-tagging rules.
 
 The user's input: $ARGUMENTS
 
@@ -10,14 +10,14 @@ The user's input: $ARGUMENTS
 
 2. **Generate timestamps** — Get the current time. Set `timestamp_local` as `YYYY-MM-DD HH:MM ET` and `timestamp_utc` as `YYYY-MM-DDTHH:MM:SSZ`.
 
-3. **Build filename** — Following the naming convention in `.claude/standards/Investing.md`:
+3. **Build filename** — Following the naming convention in `.claude/skills/Investing.md`:
    - Map source_type to its abbreviation (youtube→yt, pdf→pdf, article→art, earnings→earn, 13f→13f, newsletter→nl)
    - Slugify the title: lowercase, replace spaces with hyphens, strip special characters, keep 3-6 words
    - Format: `YYYY-MM-DD-{abbrev}-{slug}.md`
 
-4. **Apply auto-tagging** — Scan the title, summary, tickers, and source against the auto-tagging rules in `.claude/standards/Investing.md`. Collect all matching tags. Do not duplicate tags the user already provided.
+4. **Apply auto-tagging** — Scan the title, summary, tickers, and source against the auto-tagging rules in `.claude/skills/Investing.md`. Collect all matching tags. Do not duplicate tags the user already provided.
 
-5. **Create LOGGED entry** — Write the file to `personal_investing/references/LOGGED/` using the **Research Entry** template from `.claude/standards/Investing.md`. Fill in all frontmatter fields. Set `status: "logged"`. Populate Summary and Key Claims from what the user provided. If thesis_impact or conviction_delta were not specified, make a reasonable inference from the content and label it as inferred.
+5. **Create LOGGED entry** — Write the file to `personal_investing/references/LOGGED/` using the **Research Entry** template from `.claude/skills/Investing.md`. Fill in all frontmatter fields. Set `status: "logged"`. Populate Summary and Key Claims from what the user provided. If thesis_impact or conviction_delta were not specified, make a reasonable inference from the content and label it as inferred.
 
 5a. **Move and rename source file (PDFs only)** — If source_type is `pdf` and the url points to a local file path, rename the file to match the markdown filename (same `YYYY-MM-DD-pdf-{slug}` stem, `.pdf` extension) and move it to `personal_investing/references/LOGGED/`. Update the `url` frontmatter field and any inline file references in the entry to reflect the new path and name.
 

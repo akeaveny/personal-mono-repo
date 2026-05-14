@@ -1,6 +1,6 @@
 Log a daily journal entry from conversational input.
 
-First, read `.claude/standards/DailyJournal.md` for the full schema, templates, auto-tagging rules, and append behavior.
+First, read `.claude/skills/DailyJournal.md` for the full schema, templates, auto-tagging rules, and append behavior.
 
 The user's input: $ARGUMENTS
 
