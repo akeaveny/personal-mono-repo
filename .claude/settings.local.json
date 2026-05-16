@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(date:*)",
-      "mcp__outlook__create-todo-task"
+      "mcp__outlook__create-todo-task",
+      "Bash(python *)"
     ]
   },
   "enableAllProjectMcpServers": true,

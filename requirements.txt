@@ -1,0 +1,7 @@
+pandas
+openpyxl
+dbt-sqlite
+requests
+yfinance
+yt-dlp
+beautifulsoup4

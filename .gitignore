@@ -8,6 +8,9 @@ tokens.json
 # .TODO/
 .TODO/
 
+# Archive
+.archive/
+
 # Personal finance
 personal_finance/csv_files/
 personal_finance/*.db
