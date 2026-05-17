@@ -4,17 +4,19 @@
 
 ## Inbox
 
-- Bag to Brett
- - Golf cart from Costco (Ty)
+- [ ] Contacts from Canada Life
 
-- Booking for Lynx Ridge
-- Post clubs on Market Place / Bag on Marketplace
+- Tracking Drinks (App) (Stu)
+
+- Airbnb for Canmore Men's open
+
+- Golf cart from Costco (Ty)
+
+- Booking for Lynx Ridge (Waitlist)
+- Post clubs on Market Place
 - Buy Mountain collective pass (Revelstoke Trip)
 
 - Jason Aldean Stamp 
-
-- [ ] Contacts from Canada Life
-- Heart Rate Monitor for biking and running (Watch)
 
 - [ ] Prints from Geo for condo
 - [ ] Book dentist appointment (Fix teeth)
@@ -22,7 +24,6 @@
 
 - Book lesson @ LYNX
 - New meal plan for biking and running
-- Take a pause from instagram (75 day Challenge)
 
 #### Planning
 - [ ] Book RBC scramble open with Cone & Garrett

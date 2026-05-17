@@ -11,60 +11,63 @@ OUT = Path(__file__).parent / "gym.xlsx"
 
 PLAN = [
     (
-        "Day 1 — Chest & Triceps",
+        "Day 1 — Upper",
         [
             ("Incline Dumbbell Press", "4 x 8-12", "90 sec"),
-            ("Flat Bench / Dumbbell Press", "3 x 10-12", "90 sec"),
-            ("Cable Flyes", "3 x 12-15", "60 sec"),
-            ("Dips (lean forward)", "3 x 10-12", "90 sec"),
-            ("Overhead Tricep Extension", "3 x 10-12", "60 sec"),
-            ("Tricep Pushdown", "3 x 12-15", "60 sec"),
-        ],
-    ),
-    (
-        "Day 2 — Back & Biceps",
-        [
-            ("Lat Pulldown", "4 x 8-12", "90 sec"),
-            ("Cable Row", "3 x 10-12", "90 sec"),
-            ("Dumbbell Row", "3 x 10-12", "90 sec"),
-            ("Face Pulls", "3 x 12-15", "60 sec"),
-            ("Incline Dumbbell Curl", "3 x 10-12", "60 sec"),
-            ("Hammer Curl", "3 x 10-12", "60 sec"),
-        ],
-    ),
-    (
-        "Day 3 — Shoulders & Arms",
-        [
-            ("Dumbbell Shoulder Press", "4 x 8-12", "90 sec"),
-            ("Lateral Raises", "4 x 12-15", "60 sec"),
+            ("Cable Row", "4 x 10-12", "90 sec"),
+            ("Dumbbell Shoulder Press", "3 x 10-12", "90 sec"),
+            ("Lat Pulldown", "3 x 10-12", "90 sec"),
+            ("Lateral Raises", "3 x 12-15", "60 sec"),
             ("Rear Delt Fly", "3 x 12-15", "60 sec"),
-            ("Cable Lateral Raise", "3 x 12-15", "60 sec"),
-            ("Barbell Curl", "3 x 10-12", "60 sec"),
-            ("Skull Crushers", "3 x 10-12", "60 sec"),
+            ("Cable Crunches", "3 x 12-15", "60 sec"),
         ],
     ),
     (
-        "Day 4 — Legs",
+        "Day 2 — Lower",
         [
             ("Leg Press", "4 x 10-12", "90 sec"),
             ("Bulgarian Split Squat", "3 x 10-12", "90 sec"),
-            ("Leg Extension", "3 x 12-15", "60 sec"),
             ("Lying Leg Curl", "3 x 10-12", "60 sec"),
+            ("Leg Extension", "3 x 12-15", "60 sec"),
             ("Hip Thrust", "3 x 10-12", "90 sec"),
             ("Seated Calf Raise", "4 x 12-15", "60 sec"),
             ("Hanging Leg Raise", "3 x 10-15", "60 sec"),
         ],
     ),
+    (
+        "Day 3 — Push",
+        [
+            ("Flat Bench / Dumbbell Press", "4 x 8-12", "90 sec"),
+            ("Low-to-High Cable Fly", "3 x 12-15", "60 sec"),
+            ("Dips (lean forward)", "3 x 10-12", "90 sec"),
+            ("Lateral Raises", "4 x 12-15", "60 sec"),
+            ("Overhead Tricep Extension", "3 x 10-12", "60 sec"),
+            ("Tricep Pushdown", "3 x 12-15", "60 sec"),
+            ("Cable Crunches", "3 x 12-15", "60 sec"),
+        ],
+    ),
+    (
+        "Day 4 — Pull",
+        [
+            ("Lat Pulldown", "4 x 8-12", "90 sec"),
+            ("Dumbbell Row", "4 x 10-12", "90 sec"),
+            ("Face Pulls", "3 x 12-15", "60 sec"),
+            ("Cable Lateral Raise", "3 x 12-15", "60 sec"),
+            ("Incline Dumbbell Curl", "3 x 10-12", "60 sec"),
+            ("Hammer Curl", "3 x 10-12", "60 sec"),
+            ("Rear Delt Fly", "3 x 12-15", "60 sec"),
+        ],
+    ),
 ]
 
 SCHEDULE = [
-    ("Mon", "Chest & Triceps", ""),
+    ("Mon", "Upper", ""),
     ("Tue", "Easy ride (45-60 min, Zone 2)", "Recovery pace, conversational"),
-    ("Wed", "Back & Biceps", ""),
-    ("Thu", "Long or hard ride (60-90 min)", "Intervals, hills, or tempo"),
-    ("Fri", "Shoulders & Arms", ""),
-    ("Sat", "Legs + optional easy ride", "Keep ride short/easy if legs are cooked"),
-    ("Sun", "Long ride (90 min+) or full rest", "Big ride day, or rest if needed"),
+    ("Wed", "Lower", ""),
+    ("Thu", "Easy ride or rest", "Keep easy if legs are sore"),
+    ("Fri", "Push", ""),
+    ("Sat", "Pull", ""),
+    ("Sun", "Long/hard ride (90 min+) or rest", "Big ride day, or rest if needed"),
 ]
 
 TITLE_FONT = Font(name="Calibri", size=16, bold=True, color="FFFFFF")
@@ -98,7 +101,7 @@ def build_plan_sheet(wb):
     ws.title = "Plan"
 
     ws.merge_cells("A1:C1")
-    t = ws.cell(row=1, column=1, value="Training Plan — 4-day hypertrophy split")
+    t = ws.cell(row=1, column=1, value="Training Plan — Upper/Lower/Push/Pull")
     t.font = TITLE_FONT
     t.fill = TITLE_FILL
     t.alignment = Alignment(horizontal="center", vertical="center")
@@ -196,7 +199,7 @@ def build_log_sheet(wb):
         ws.cell(row=3, column=i, value=h)
     style_header_row(ws, 3, len(headers))
 
-    widths = {"A": 12, "B": 8, "C": 32, "D": 6, "E": 12, "F": 8, "F": 8, "G": 6, "H": 36}
+    widths = {"A": 12, "B": 8, "C": 32, "D": 6, "E": 12, "F": 8, "G": 6, "H": 36}
     for col, w in widths.items():
         ws.column_dimensions[col].width = w
 
@@ -343,6 +346,45 @@ def build_ref_sheet(wb):
     ws.sheet_state = "hidden"
 
 
+def build_nutrition_sheet(wb):
+    ws = wb.create_sheet("Nutrition")
+
+    ws.merge_cells("A1:G1")
+    t = ws.cell(row=1, column=1, value="Daily Nutrition — manual entry from meal log")
+    t.font = TITLE_FONT
+    t.fill = TITLE_FILL
+    t.alignment = Alignment(horizontal="center", vertical="center")
+    ws.row_dimensions[1].height = 28
+
+    headers = ["Date", "Calories", "Protein (g)", "Fat (g)", "Carbs (g)", "Binge?", "Notes / Triggers"]
+    for i, h in enumerate(headers, 1):
+        ws.cell(row=3, column=i, value=h)
+    style_header_row(ws, 3, len(headers))
+
+    widths = {"A": 12, "B": 10, "C": 12, "D": 10, "E": 10, "F": 8, "G": 50}
+    for col, w in widths.items():
+        ws.column_dimensions[col].width = w
+
+    dv_binge = DataValidation(
+        type="list", formula1='"Yes,No"', allow_blank=True
+    )
+    ws.add_data_validation(dv_binge)
+    dv_binge.add("F4:F500")
+
+    for r in range(4, 504):
+        ws.cell(row=r, column=1).number_format = "yyyy-mm-dd"
+
+    # Weekly summary row hint
+    ws.cell(row=2, column=1, value="Target range:")
+    ws.cell(row=2, column=2, value="2200-2600")
+    ws.cell(row=2, column=3, value="150-180")
+    for c in range(1, 4):
+        cell = ws.cell(row=2, column=c)
+        cell.font = Font(name="Calibri", size=9, italic=True, color="808080")
+
+    ws.freeze_panes = "A4"
+
+
 def main():
     wb = Workbook()
     build_plan_sheet(wb)
@@ -350,6 +392,7 @@ def main():
     build_log_sheet(wb)
     build_bodyweight_sheet(wb)
     build_progress_sheet(wb)
+    build_nutrition_sheet(wb)
     build_ref_sheet(wb)
     wb.save(OUT)
     print(f"Wrote {OUT}")

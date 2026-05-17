@@ -1,53 +1,56 @@
 # Training Plan
 
-4-day hypertrophy split + road cycling for a hybrid aesthetic lifestyle.
+Upper/Lower/Push/Pull hypertrophy split + road cycling for a hybrid aesthetic lifestyle. Every muscle hit 2x/week; rear delts and abs 3x/week.
 
 ---
 
-## Day 1 — Chest & Triceps
+## Day 1 — Upper
 
 | Exercise | Sets x Reps | Rest |
 |---|---|---|
 | Incline Dumbbell Press | 4 x 8-12 | 90 sec |
-| Flat Bench / Dumbbell Press | 3 x 10-12 | 90 sec |
-| Cable Flyes | 3 x 12-15 | 60 sec |
-| Dips (lean forward) | 3 x 10-12 | 90 sec |
-| Overhead Tricep Extension | 3 x 10-12 | 60 sec |
-| Tricep Pushdown | 3 x 12-15 | 60 sec |
-
-## Day 2 — Back & Biceps
-
-| Exercise | Sets x Reps | Rest |
-|---|---|---|
-| Lat Pulldown | 4 x 8-12 | 90 sec |
-| Cable Row | 3 x 10-12 | 90 sec |
-| Dumbbell Row | 3 x 10-12 | 90 sec |
-| Face Pulls | 3 x 12-15 | 60 sec |
-| Incline Dumbbell Curl | 3 x 10-12 | 60 sec |
-| Hammer Curl | 3 x 10-12 | 60 sec |
-
-## Day 3 — Shoulders & Arms
-
-| Exercise | Sets x Reps | Rest |
-|---|---|---|
-| Dumbbell Shoulder Press | 4 x 8-12 | 90 sec |
-| Lateral Raises | 4 x 12-15 | 60 sec |
+| Cable Row | 4 x 10-12 | 90 sec |
+| Dumbbell Shoulder Press | 3 x 10-12 | 90 sec |
+| Lat Pulldown | 3 x 10-12 | 90 sec |
+| Lateral Raises | 3 x 12-15 | 60 sec |
 | Rear Delt Fly | 3 x 12-15 | 60 sec |
-| Cable Lateral Raise | 3 x 12-15 | 60 sec |
-| Barbell Curl | 3 x 10-12 | 60 sec |
-| Skull Crushers | 3 x 10-12 | 60 sec |
+| Cable Crunches | 3 x 12-15 | 60 sec |
 
-## Day 4 — Legs
+## Day 2 — Lower
 
 | Exercise | Sets x Reps | Rest |
 |---|---|---|
 | Leg Press | 4 x 10-12 | 90 sec |
 | Bulgarian Split Squat | 3 x 10-12 | 90 sec |
-| Leg Extension | 3 x 12-15 | 60 sec |
 | Lying Leg Curl | 3 x 10-12 | 60 sec |
+| Leg Extension | 3 x 12-15 | 60 sec |
 | Hip Thrust | 3 x 10-12 | 90 sec |
 | Seated Calf Raise | 4 x 12-15 | 60 sec |
 | Hanging Leg Raise | 3 x 10-15 | 60 sec |
+
+## Day 3 — Push
+
+| Exercise | Sets x Reps | Rest |
+|---|---|---|
+| Flat Bench / Dumbbell Press | 4 x 8-12 | 90 sec |
+| Low-to-High Cable Fly | 3 x 12-15 | 60 sec |
+| Dips (lean forward) | 3 x 10-12 | 90 sec |
+| Lateral Raises | 4 x 12-15 | 60 sec |
+| Overhead Tricep Extension | 3 x 10-12 | 60 sec |
+| Tricep Pushdown | 3 x 12-15 | 60 sec |
+| Cable Crunches | 3 x 12-15 | 60 sec |
+
+## Day 4 — Pull
+
+| Exercise | Sets x Reps | Rest |
+|---|---|---|
+| Lat Pulldown | 4 x 8-12 | 90 sec |
+| Dumbbell Row | 4 x 10-12 | 90 sec |
+| Face Pulls | 3 x 12-15 | 60 sec |
+| Cable Lateral Raise | 3 x 12-15 | 60 sec |
+| Incline Dumbbell Curl | 3 x 10-12 | 60 sec |
+| Hammer Curl | 3 x 10-12 | 60 sec |
+| Rear Delt Fly | 3 x 12-15 | 60 sec |
 
 ---
 
@@ -55,13 +58,28 @@
 
 | Day | Session | Notes |
 |---|---|---|
-| Mon | Chest & Triceps | — |
+| Mon | Upper | — |
 | Tue | Easy ride (45-60 min, Zone 2) | Recovery pace, conversational |
-| Wed | Back & Biceps | — |
-| Thu | Long or hard ride (60-90 min) | Intervals, hills, or tempo |
-| Fri | Shoulders & Arms | — |
-| Sat | Legs + optional easy ride | Keep ride short/easy if legs are cooked |
-| Sun | Long ride (90 min+) or full rest | Big ride day, or rest if needed |
+| Wed | Lower | — |
+| Thu | Easy ride or rest | Keep easy if legs are sore |
+| Fri | Push | — |
+| Sat | Pull | — |
+| Sun | Long/hard ride (90 min+) or rest | Big ride day, or rest if needed |
+
+---
+
+## Weekly Frequency
+
+| Muscle | Sessions/Week | Notes |
+|---|---|---|
+| Chest | 2x | Upper (incline) + Push (flat + fly) |
+| Back | 2x | Upper (row + pulldown) + Pull (pulldown + row) |
+| Shoulders (side) | 2x | Upper (lateral raise) + Push (lateral raise) + Pull (cable lateral) |
+| Rear Delts | 3x | Upper + Pull + face pulls |
+| Triceps | 2x | Upper (pressing) + Push (direct) |
+| Biceps | 2x | Upper (rows) + Pull (direct) |
+| Legs | 1x + cycling | Lower day; cycling provides additional stimulus |
+| Abs | 3x | Upper + Push + Lower |
 
 ---
 
